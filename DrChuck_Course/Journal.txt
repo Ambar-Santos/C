@@ -1,7 +1,14 @@
 Day 1 - Septembre 28th 2025 
 
-I learned about preconditions and postconditions. 
+I learned about the use of preconditions and postconditions 
+to make better more secure functions. 
 How you have to be flexible with input but very strict 
 about the output of a function.
 
 It has a name, design by contract. 
+
+This was not learned in the course so far, but in a comment
+section of a video, doesnt mean I didnt have this notion before
+because I was taught this in my software engineering fundamentals
+classes but the output thing was not hardcoded in my head to be 
+completely honest. 
