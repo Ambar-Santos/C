@@ -1,0 +1,7 @@
+Day 1 - Septembre 28th 2025 
+
+I learned about preconditions and postconditions. 
+How you have to be flexible with input but very strict 
+about the output of a function.
+
+It has a name, design by contract. 
