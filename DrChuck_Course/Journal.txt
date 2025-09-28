@@ -12,3 +12,11 @@ section of a video, doesnt mean I didnt have this notion before
 because I was taught this in my software engineering fundamentals
 classes but the output thing was not hardcoded in my head to be 
 completely honest. 
+----------------------------------------------------
+
+Strings; 
+
+Strings in c are not strings they are arrays of 
+characters.
+
+Strings must be terminated. 
