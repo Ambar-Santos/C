@@ -20,3 +20,12 @@ Strings in c are not strings they are arrays of
 characters.
 
 Strings must be terminated. 
+
+-------------------------------------------------------
+Chapter 1 - Notes
+
+\n --> new line
+\t --> tab
+\b --> Backspace
+\" --> Double quote
+\\ --> for the blacklash itself
