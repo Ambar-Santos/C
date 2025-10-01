@@ -33,7 +33,7 @@ int main (){
   
    putchar('\n');
     printf("There are %d new line characters \n", nl);
-       printf("There are %d characters (letters, numbers, punctuation)\n" , nc);
+    printf("There are %d characters (letters, numbers, punctuation)\n" , nc);
 
   return 0; 	
 }
