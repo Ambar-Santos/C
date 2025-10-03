@@ -27,7 +27,20 @@ int main (){
 
   //Print Program Title and instructions
   printf("=== Counting Program ===\n");
-  printf("This program counts: \n");
+/*
+ * Program: Counting Program
+ * Description:
+ *   This program reads characters from standard input until EOF (Ctrl+D on Linux/Mac,
+ *   Ctrl+Z on Windows). It counts:
+ *     - Newline characters
+ *     - Spaces
+ *     - Tabs
+ *     - Non-whitespace characters
+ *     - Words (defined as sequences of non-whitespace characters)
+ *
+ * Usage:
+ *   Run the program, type text, and finish input with EOF.
+ */  printf("This program counts: \n");
   printf(" - Characters\n");
   printf(" - Spaces\n");
   printf(" - Tabs\n");
