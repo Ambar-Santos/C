@@ -24,9 +24,11 @@ int main(int argc, const char *argv[])
     }
 
     x = halveIt(x);
-     
+    int double_x = doubleIt(number);
 
     printf("Half of %d is %d\n",number,  x);
+    printf("Double of %d is %d bro\n", number, double_x);
+
     printf("Now lets count from 1 to %d\n", number);
 
     for(int i = 1; i <= number; i++){
