@@ -25,4 +25,6 @@ int main(){
 
    printf( "%d! is %d.", array[9] , calculate_factorial(array, sizeof(array)/ sizeof(array[0])));
 
+
+   getchar();
 }
