@@ -10,10 +10,12 @@ int main(){
 
 
     char name[100] = "";
+    
+
     printf("Type your name: \n");
     scanf("%99s", name);
    
-
+  
 
     printf("So, your name is %s, it actually has %zu letters!\n", name, strlen(name));
 
