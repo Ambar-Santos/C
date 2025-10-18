@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int update_runner_count(char change_count) {
 
     static int count = 0;
@@ -37,8 +38,9 @@ int main()
         scanf(" %c", &keep_counting); 
         if(keep_counting == 'y'){
             continue;
+            printf("MININ\n");
         }else if(keep_counting == 'n'){
-            break;
+            continue;
         }else{
            if (change_count != '+' && change_count != '-') {
             printf("Invalid operation! Please use + or -.\n");
@@ -50,7 +52,7 @@ int main()
 
         
     
-    printf("Press Enter to exit...");
+    printf("Press Enter to exit..."); 
     getchar();
     getchar();
 
