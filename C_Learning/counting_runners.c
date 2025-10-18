@@ -24,8 +24,9 @@ int main()
     char change_count;
     char keep_counting = 'y';
     
+    //Main program 
     while(keep_counting == 'y'){
-
+        
         printf("Type + to add runners to the count\n");
         printf("Type - to delete runners from the count\n");
         
@@ -40,7 +41,7 @@ int main()
             continue;
             printf("MININ\n");
         }else if(keep_counting == 'n'){
-            continue;
+            continue; //It still works after putting continue instead of break 
         }else{
            if (change_count != '+' && change_count != '-') {
             printf("Invalid operation! Please use + or -.\n");
@@ -52,7 +53,7 @@ int main()
 
         
     
-    printf("Press Enter to exit..."); 
+    printf("...Press Enter to exit..."); 
     getchar();
     getchar();
 
