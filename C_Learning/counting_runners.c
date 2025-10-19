@@ -24,7 +24,7 @@ int main()
     char change_count;
     char keep_counting = 'y';
     
-    //Main program 
+  
     while(keep_counting == 'y'){
         
         printf("Type + to add runners to the count\n");
@@ -56,6 +56,7 @@ int main()
     printf("...Press Enter to exit..."); 
     getchar();
     getchar();
+   
 
     return 0;
 }
