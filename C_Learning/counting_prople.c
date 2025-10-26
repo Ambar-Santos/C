@@ -49,6 +49,7 @@ int main()
       
         printf("Do you want to keep on counting? y/n \n"); 
         scanf(" %c", &keep_counting); 
+        
         if(keep_counting == 'y'){
             continue;
         }else if(keep_counting == 'n'){
