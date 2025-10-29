@@ -18,7 +18,7 @@ ana.hobby = "cuteness";
 
 //print 
 
-printf("name \n", ana.name);
+printf("name is %s\n", ana.name);
 return 0;
 
 }
