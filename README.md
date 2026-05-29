@@ -1,3 +1,3 @@
 # C
 
-## Me learning C 
+## Learning C via various sources
